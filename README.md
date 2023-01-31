@@ -2,7 +2,7 @@
 
 This is a simple implementation of a Pokedex app that allows you to view a list of Pokemons.
 
-The main focus for review should be the server side code in `pokedex_assignment/pokedex/pokedex_app/views.py`, and the client side code in `pokedex_assignment/pokedex/pokedex_app/templates/pokedex.html`.
+The main focus for review should be the server side code in `pokedex/pokedex_app/views.py`, and the client side code in `pokedex/pokedex_app/templates/pokedex.html`.
 
 The code implements a caching mechanism that stores the pokemons data in cache for TTL time configured to improve performance. If the cache is invalidated, the data is retrieved from the database again.
 
